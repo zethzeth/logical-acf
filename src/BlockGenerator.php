@@ -7,5 +7,6 @@ class BlockGenerator {
 	public function __construct(){
 		echo 'Test';
 	}
+
 }
 ?>
