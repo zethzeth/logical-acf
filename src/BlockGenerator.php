@@ -1,6 +1,6 @@
 <?php
 
-namespace LogicalAcf;
+namespace Zeth\LogicalAcf;
 
 class BlockGenerator {
 

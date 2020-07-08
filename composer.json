@@ -2,9 +2,6 @@
 	"name": "zethzeth/logical-acf",
 	"type": "library",
 	"description": "A package that makes it possible to make and maintain ACF-fields from the         source code.",
-	"require": {
-		"php": ">=7.2.0"
-	},
 	"keywords": [ "advancedcustomfields", "acf", "wpacf" ],
 	"homepage": "https://zeth.dk/logical-acf",
 	"license": "MIT",
@@ -17,8 +14,9 @@
 		}
 	],
 	"autoload": {
-		"psr-4": {
-			"zethzeth\\LogicalAcf\\": "src/"
-		}
+		"classmap": [
+			"src/Base.php",
+			"src/BlockGenerator.php"
+		]
 	}
 }
