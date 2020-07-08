@@ -14,9 +14,8 @@
 		}
 	],
 	"autoload": {
-		"classmap": [
-			"src/Base.php",
-			"src/BlockGenerator.php"
-		]
+		"psr-4": {
+		  "Zeth\\LogicalAcf\\": "src/"
+		}
 	}
 }
